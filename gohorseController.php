@@ -16,12 +16,19 @@ include_once ("mysql_crud.php");
 $db = new Database();
 $db->connect();
 
-
-if (isset($_SESSION['step'])) {
+/*
+ *
+ * if (isset($_SESSION['step'])) {
     $_SESSION['step']++;
 } else {
     $_SESSION['step'] = 1;
 }
+ *
+ */
+$ref = $_SERVER['HTTP_REFERER'];
+var_dump($ref);
+exit();
+
 
 if (isset($_POST)) {
     $_SESSION = array_merge($_SESSION, $_POST);
