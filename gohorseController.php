@@ -22,7 +22,7 @@ $pg++;
 if (isset($_POST)) {
     $_SESSION = array_merge($_SESSION, $_POST);
 
-    if ($pg > 12) {
+    if ($pg > 13) {
 
         $_SESSION['interesse'] = implode(",",$_SESSION['interesse']);
 

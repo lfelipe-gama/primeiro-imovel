@@ -1,176 +1,247 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
 
+<html lang="pt-br">
+
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107898178-1"></script>
+
     <script>
+
         window.dataLayer = window.dataLayer || [];
+
         function gtag(){dataLayer.push(arguments);}
+
         gtag('js', new Date());
 
+
+
         gtag('config', 'UA-107898178-1');
+
     </script>
 
+
+
     <!-- Google Tag Manager -->
+
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
     })(window,document,'script','dataLayer','GTM-PL96HRW');</script>
+
     <!-- End Google Tag Manager -->
 
+
+
+
+
     <meta charset="utf-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>Primeiro Imóvel</title>
     <script language='JavaScript1.1' async src='//pixel.mathtag.com/event/js?mt_id=1252038&mt_adid=125029&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3='></script>
 
+
+
     <!-- Bootstrap -->
+
     <link href="css/bootstrap.css" rel="stylesheet">
 
+
+
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
 
+
+
     <![endif]-->
+
 </head>
+
 <body>
      <script language='JavaScript1.1' async src='//pixel.mathtag.com/event/js?mt_id=1252038&mt_adid=125029&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3='></script>
 
 <!-- Google Tag Manager (noscript) -->
+
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL96HRW"
+
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 <!-- End Google Tag Manager (noscript) -->
+
 <div class="container-fluid">
+
     <div class="row">
+
         <div class="col-lg-12">
+
             <div class="row">
+
                 <img src="img/header.png" class="img-responsive center" alt="" width="175">
+
             </div>
+
             <div class="container">
+
                 <div class="progress">
-                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75"
-                         aria-valuemin="0"
-                         aria-valuemax="100" style="width: 75%;">
-                        75%
+
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+
+                         aria-valuemax="100" style="width: 65%;">
+
+                        65%
+
                     </div>
+
                 </div>
 
-                <h4 style="font-size: 22px; margin-top: 60px; ">Selecione até 3 interesses:</h4>
+
+
+                <h4 style="font-size: 22px; margin-top: 60px; ">Mova o marcador em direção ao que é mais importante para você:</h4>
+
                 <br class="clearfix">
 
-                <div class="form-box" style="margin-top: 10px;">
+                <div class="form-box">
 
-                            <form action="gohorseController.php" method="post">
-                                <div class="row">
-                                <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
 
-                                    <input type="checkbox" name="interesse[]" value="praia" id="check1"/>
-                                    <label class="label-checkbox" for="check1">Praia</label>
 
-                                </div>
+                    <form action="gohorseController.php" method="post">
 
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
+                        <div class="row">
 
-                                        <input type="checkbox" name="interesse[]" value="gastronomia" id="check2"/>
-                                        <label class="label-checkbox" for="check2">Gastronomia e bebidas</label>
+                        <div class="col-xs-12">
 
-                                    </div>
+                            <input type="range" name="tamanho--localizacao" min="-3" max="3" value="0"/>
 
-                                </div>
+                            <div class="row texto-branco">
 
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
+                                <div class="col-xs-6 text-left">
 
-                                        <input type="checkbox" name="interesse[]" value="fitness" id="check3"/>
-                                        <label class="label-checkbox" for="check3">Fitness</label>
+                                    Tamanho<br>
 
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                        <input type="checkbox" name="interesse[]" value="arte e cultura" id="check4"/>
-                                        <label class="label-checkbox" for="check4">Arte e cultura</label>
-
-                                    </div>
+                                    do imóvel
 
                                 </div>
 
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
+                                <div class="col-xs-6 text-right">
 
-                                        <input type="checkbox" name="interesse[]" value="vida noturna" id="check5"/>
-                                        <label class="label-checkbox" for="check5">Vida nortuna</label>
-
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                        <input type="checkbox" name="interesse[]" value="tecnologia" id="check6"/>
-                                        <label class="label-checkbox" for="check6">Tecnologia</label>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-                                <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                    <input type="checkbox" name="interesse[]" value="negocios" id="check7"/>
-                                    <label class="label-checkbox" for="check7">Negócios</label>
-
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                    <input type="checkbox" name="interesse[]" value="outros" id="check8"/>
-                                    <label class="label-checkbox" for="check8">Outros</label>
+                                    Localização
 
                                 </div>
 
                             </div>
 
+                        </div>
 
-                                <button style="margin-top: 70px;" type="submit" class="btn-lg btn-default btn-xx">Avançar</button>
+                        </div>
+
+                        <div class="row" style="margin-top: 50px;">
+
+                        <div class="col-xs-12">
+
+                            <input type="range" name="areainterna--areacomum" min="-3" max="3" value="0"/>
+
+                            <div class="row texto-branco">
+
+                                <div class="col-xs-6 text-left">
+
+                                    Espaço<br>
+
+                                    interno
+
+                                </div>
+
+                                <div class="col-xs-6 text-right">
+
+                                   Área<br>
+
+                                   comum
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                </div>
+
+                        <div class="row" style="margin-top: 50px;">
+
+                            <div class="col-xs-12">
+
+                                <input type="range" name="residencial--comercial" min="-3" max="3" value="0"/>
+
+                                <div class="row texto-branco">
+
+                                    <div class="col-xs-6 text-left">
+
+                                        Bairro<br>
+
+                                        residencial
+
+                                    </div>
+
+                                    <div class="col-xs-6 text-right">
+
+                                        Bairro<br>
+
+                                        comercial
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
 
 
 
+                        <button style="margin-top: 80px;" type="submit" class="btn-lg btn-default btn-xx">Avançar</button>
 
-                        </form>
-                    </div>
+
+
+                </div>
+
+                </form>
+
+
 
             </div>
+
         </div>
+
     </div>
+
 </div>
+
 </div>
+
+
+
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
+
 <script src="js/bootstrap.min.js"></script>
-<script type="text/javascript">
-    var rangeSlider = function () {
-        var slider = $('.range-slider'),
-            range = $('.range-slider__range'),
-            value = $('.range-slider__value');
 
-        slider.each(function () {
-
-            value.each(function () {
-                var value = $(this).prev().attr('value');
-                $(this).html(value);
-            });
-
-            range.on('input', function () {
-                $(this).next(value).html(this.value);
-            });
-        });
-    };
-
-    rangeSlider();
-</script>
 </body>
+
 </html>
+
