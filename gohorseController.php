@@ -16,6 +16,7 @@ include_once ("mysql_crud.php");
 $db = new Database();
 $db->connect();
 
+
 if (isset($_SESSION['step'])) {
     $_SESSION['step']++;
 } else {
@@ -26,12 +27,10 @@ if (isset($_POST)) {
     $_SESSION = array_merge($_SESSION, $_POST);
 
     if ($_SESSION['step'] > 15) {
-
-        unset($_SESSION['step']);
-
+        $d = (object)$_SESSION;
+       unset($_SESSION['step']);
         $db->insert('leads',$_SESSION);
         $res = $db->getResult();
-
         //var_dump($res);
         header('Location: obrigado.html');
         exit();
