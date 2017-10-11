@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6779f38a-b08d-44c1-b008-2fe6ab00eb17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step1.html" afterPath="$PROJECT_DIR$/step1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step10.html" afterPath="$PROJECT_DIR$/step10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step11.html" afterPath="$PROJECT_DIR$/step11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step12.html" afterPath="$PROJECT_DIR$/step12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step2.html" afterPath="$PROJECT_DIR$/step2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step3.html" afterPath="$PROJECT_DIR$/step3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step4.html" afterPath="$PROJECT_DIR$/step4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step5.html" afterPath="$PROJECT_DIR$/step5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step6.html" afterPath="$PROJECT_DIR$/step6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step7.html" afterPath="$PROJECT_DIR$/step7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step8.html" afterPath="$PROJECT_DIR$/step8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step9.html" afterPath="$PROJECT_DIR$/step9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gohorseController.php" afterPath="$PROJECT_DIR$/gohorseController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,225 +24,31 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4185185">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mysql_crud.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mysql_crud.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="29" />
-                  <folding>
-                    <marker date="1507708541810" expanded="true" signature="4979:5091" ph="INSERT INTO `${$table}`... " />
-                    <marker date="1507708541810" expanded="true" signature="6018:6047" ph="DELETE FROM " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gohorseController.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gohorseController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="48" column="12" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="50" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step1.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step2.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="830">
-                  <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step3.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step3.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="588">
-                  <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step4.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step4.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="567">
-                  <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step11.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step11.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="830">
-                  <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step12.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step12.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="830">
-                  <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step10.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/step10.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="693">
-                  <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="452">
-                  <caret line="235" column="29" lean-forward="false" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step5.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/step5.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="819">
-                  <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step6.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step6.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="819">
-                  <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step7.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step7.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="567">
-                  <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step8.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step8.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="819">
-                  <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step9.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/step9.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="mysql_crud.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysql_crud.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <marker date="1507711313140" expanded="true" signature="4979:5091" ph="INSERT INTO `${$table}`... " />
+                <marker date="1507711313140" expanded="true" signature="6018:6047" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gohorseController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gohorseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -293,8 +88,6 @@
         <option value="$PROJECT_DIR$/obrigado.html" />
         <option value="$PROJECT_DIR$/tst.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/mysql_crud.php" />
-        <option value="$PROJECT_DIR$/gohorseController.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/step1.html" />
         <option value="$PROJECT_DIR$/step2.html" />
@@ -308,6 +101,8 @@
         <option value="$PROJECT_DIR$/step7.html" />
         <option value="$PROJECT_DIR$/step6.html" />
         <option value="$PROJECT_DIR$/step5.html" />
+        <option value="$PROJECT_DIR$/mysql_crud.php" />
+        <option value="$PROJECT_DIR$/gohorseController.php" />
       </list>
     </option>
   </component>
@@ -407,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507533421325</updated>
       <workItem from="1507533422541" duration="53079000" />
-      <workItem from="1507692089397" duration="13721000" />
+      <workItem from="1507692089397" duration="14897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66800000" />
+    <option name="totallyTimeSpent" value="67976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -475,8 +270,8 @@
         <state relative-caret-position="252">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <marker date="1507708541810" expanded="true" signature="4979:5091" ph="INSERT INTO `${$table}`... " />
-            <marker date="1507708541810" expanded="true" signature="6018:6047" ph="DELETE FROM " />
+            <marker date="1507711313140" expanded="true" signature="4979:5091" ph="INSERT INTO `${$table}`... " />
+            <marker date="1507711313140" expanded="true" signature="6018:6047" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -647,25 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql_crud.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <marker date="1507708541810" expanded="true" signature="4979:5091" ph="INSERT INTO `${$table}`... " />
-            <marker date="1507708541810" expanded="true" signature="6018:6047" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gohorseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/step1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -813,6 +589,25 @@
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql_crud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1507711313140" expanded="true" signature="4979:5091" ph="INSERT INTO `${$table}`... " />
+            <marker date="1507711313140" expanded="true" signature="6018:6047" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gohorseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

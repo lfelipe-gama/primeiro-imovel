@@ -18,22 +18,17 @@ $db->connect();
 
 /*
  *
- * if (isset($_SESSION['step'])) {
-    $_SESSION['step']++;
-} else {
-    $_SESSION['step'] = 1;
-}
  *
  */
-$ref = $_SERVER['HTTP_REFERER'];
-var_dump($ref);
-exit();
 
+// controle de paginas v1.1
+$pg = preg_replace("/[^0-9]/", "", $_SERVER['HTTP_REFERER']);
+$pg++;
 
 if (isset($_POST)) {
     $_SESSION = array_merge($_SESSION, $_POST);
 
-    if ($_SESSION['step'] > 12) {
+    if ($pg > 12) {
 
         $_SESSION['interesse'] = implode(",",$_SESSION['interesse']);
 
@@ -49,6 +44,6 @@ if (isset($_POST)) {
         exit();
     }
 
-        header('Location: step' . $_SESSION['step'] . '.html');
+        header('Location: step' .$pg. '.html');
 
 }
