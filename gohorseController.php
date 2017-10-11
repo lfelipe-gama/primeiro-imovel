@@ -26,11 +26,17 @@ if (isset($_SESSION['step'])) {
 if (isset($_POST)) {
     $_SESSION = array_merge($_SESSION, $_POST);
 
-    if ($_SESSION['step'] > 15) {
-        $d = (object)$_SESSION;
-       unset($_SESSION['step']);
+    if ($_SESSION['step'] > 12) {
+
+        $_SESSION['interesse'] = implode(",",$_SESSION['interesse']);
+
+        unset($_SESSION['step']);
+
         $db->insert('leads',$_SESSION);
         $res = $db->getResult();
+
+        session_destroy();
+
         //var_dump($res);
         header('Location: obrigado.html');
         exit();

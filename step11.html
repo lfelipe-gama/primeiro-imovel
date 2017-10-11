@@ -25,24 +25,25 @@
             </div>
             <div class="container">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 75%;">
-                        75%
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="93" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 93%;">
+                        93%
                     </div>
                 </div>
 
-                <h4 style="font-size: 22px; margin-top: 60px; ">Dentre as opções abaixo, qual é a que mais lhe interessa?</h4>
+                <h4 style="font-size: 22px; margin-top: 60px; ">Quase lá!</h4>
                 <br class="clearfix">
                 <div class="form-box">
-
                     <form action="gohorseController.php" method="post">
                       <div class="row" style="margin-top: 50px;">
                         <div class="col-lg-12" >
-                            <button name="interesse" type="submit" value="praia" class="btn-lg btn-default btn-xx">Praia</button>
-
-                            <button name="interesse" type="submit" value="vida noturna" class="btn-lg btn-default btn-xx">Vida noturna</button>
-
-                            <button name="interesse" type="submit" value="esportes" class="btn-lg btn-default btn-xx">Esportes</button>
+                            <div class="form-group">
+                                <label class="label-title pull-left" for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="digite seu melhor email" required>
+                            </div>
+                            <br>
+                            <button style="margin-top: 80px;" type="submit" class="btn-lg btn-default btn-lead">Avançar
+                            </button>
                         </div>
                         </div>
 
