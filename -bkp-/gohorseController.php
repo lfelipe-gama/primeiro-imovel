@@ -12,8 +12,14 @@ session_start();
  */
 
 include_once ("mysql_crud.php");
+
 $db = new Database();
 $db->connect();
+
+/*
+ *
+ *
+ */
 
 // controle de paginas v1.1
 $pg = preg_replace("/[^0-9]/", "", $_SERVER['HTTP_REFERER']);
@@ -26,6 +32,8 @@ if (isset($_POST)) {
 
         $_SESSION['interesse'] = implode(",",$_SESSION['interesse']);
 
+        unset($_SESSION['step']);
+
         $db->insert('leads',$_SESSION);
         $res = $db->getResult();
 
@@ -35,7 +43,7 @@ if (isset($_POST)) {
         header('Location: obrigado.html');
         exit();
     }
-
+    
         header('Location: step' .$pg. '.html');
 
 }

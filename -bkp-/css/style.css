@@ -14,10 +14,6 @@ body {
     min-height: 640px;
  }
 
-.head {
-    width: 65%;
-}
-
 .label-title {
     color: #FFFFFF;
     font-size: 20px;
@@ -72,7 +68,7 @@ h3 {
 }
 .btn-lead {
     height: 55px;
-    width:195px;
+    width: 195px;
     border-radius: 7.5px;
     background-color: #4CA2FF;
     color: #FFFFFF;
@@ -84,9 +80,8 @@ h3 {
 }
 
 .btn-lead-red {
-    max-width: 260px;
-    width:80%;
-    min-width:120px;
+    height: 55px;
+    width: 195px;
     border-radius: 6px;
     background-color: #D0021B;
     color: #FFFFFF;
@@ -99,9 +94,7 @@ h3 {
 
 .btn-xx {
     height: 62px;
-    max-width: 260px;
-    width:80%;
-    min-width:120px;
+    width:260px;
     border-radius: 6px;
     background-color: #4CA2FF;
     color: #FFFFFF;
@@ -295,28 +288,4 @@ label:hover:before {
     width: 100%;
 }
 
-.head {
-    padding-bottom: 0px;
-}
 
-@media screen and (min-width:500px) {
-.head {
-    width: 45%;
-    padding-bottom: 0px;
-}
-}
-
-
-@media screen and (min-width:994px) {
-.head {
-    width: 25%;
-        padding-bottom: 0px;
-}
-}
-
-@media screen and (min-width:1200px) {
-.head {
-    width: 20%;
-    padding-bottom: 30px;
-}
-}

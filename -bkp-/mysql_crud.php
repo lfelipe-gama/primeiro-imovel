@@ -7,10 +7,10 @@ class Database{
 	 * means that they will only be available with the 
 	 * Database class
 	 */
-    private $db_host = "mysql857.umbler.com";  // Change as required
-    private $db_user = "monstrao";  // Change as required
-    private $db_pass = "cuzao123";  // Change as required
-    private $db_name = "monstrao";	// Change as required
+    private $db_host = "localhost";  // Change as required
+    private $db_user = "root";  // Change as required
+    private $db_pass = "";  // Change as required
+    private $db_name = "leads";	// Change as required
 	
 	/*
 	 * Extra variables that are required by other function such as boolean con variable
