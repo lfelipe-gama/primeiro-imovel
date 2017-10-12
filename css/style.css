@@ -19,11 +19,34 @@ body {
     font-size: 18px;
 }
 
+.ic {
+    width: 26px;
+    height: 26px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
 
+.ic-select {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 8px;
+    padding-right: 6px;  
+    align-content: left;
+    display: inline-block;
+}
+
+.ic-select2 {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 8px;
+    align-content: left;
+}
 
 .head {
     width: 65%;
 }
+
+
 
 .label-title {
     color: #FFFFFF;
@@ -107,6 +130,23 @@ h3 {
 .btn-xx {
     height: 62px;
     max-width: 260px;
+    width:80%;
+    min-width:120px;
+    border-radius: 6px;
+    background-color: #4CA2FF;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: center;
+    border: none;
+    margin-bottom: 25px;
+}
+
+
+.btn-xx2 {
+    height: 62px;
+    max-width: 280px;
     width:80%;
     min-width:120px;
     border-radius: 6px;
