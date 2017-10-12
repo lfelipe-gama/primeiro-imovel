@@ -128,10 +128,9 @@ h3 {
 }
 
 .btn-xx {
-    height: 62px;
+    min-height: 62px;
     max-width: 260px;
-    width:80%;
-    min-width:120px;
+    width:85%;
     border-radius: 6px;
     background-color: #4CA2FF;
     color: #FFFFFF;
@@ -145,10 +144,9 @@ h3 {
 
 
 .btn-xx2 {
-    height: 62px;
+    min-height: 62px;
     max-width: 280px;
-    width:81%;
-    min-width:120px;
+    width:85%;
     border-radius: 6px;
     background-color: #4CA2FF;
     color: #FFFFFF;
