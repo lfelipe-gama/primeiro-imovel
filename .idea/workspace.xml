@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6779f38a-b08d-44c1-b008-2fe6ab00eb17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.mask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.mask.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step4.html" afterPath="$PROJECT_DIR$/step4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step12.html" afterPath="$PROJECT_DIR$/step12.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +36,7 @@
             <entry file="file://$PROJECT_DIR$/gohorseController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="336">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -44,17 +46,27 @@
             <entry file="file://$PROJECT_DIR$/step1.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="121">
-                  <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+                  <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="step4.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="step4.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/step4.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
-                  <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+                <state relative-caret-position="1428">
+                  <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="step12.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/step12.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="512">
+                  <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -68,7 +80,7 @@
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="410">
-                  <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+                  <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -121,7 +133,6 @@
         <option value="$PROJECT_DIR$/step2.html" />
         <option value="$PROJECT_DIR$/step3.html" />
         <option value="$PROJECT_DIR$/step11.html" />
-        <option value="$PROJECT_DIR$/step12.html" />
         <option value="$PROJECT_DIR$/step10.html" />
         <option value="$PROJECT_DIR$/step9.html" />
         <option value="$PROJECT_DIR$/step8.html" />
@@ -132,6 +143,7 @@
         <option value="$USER_HOME$/Downloads/public/admin/seguranca/conectabd_seguranca.php" />
         <option value="$PROJECT_DIR$/gohorseController.php" />
         <option value="$PROJECT_DIR$/step4.html" />
+        <option value="$PROJECT_DIR$/step12.html" />
       </list>
     </option>
   </component>
@@ -175,7 +187,13 @@
             <path>
               <item name="gama-monstro" type="b2602c69:ProjectViewProjectNode" />
               <item name="gama-monstro" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gama-monstro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gama-monstro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="jquery.mask.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -196,6 +214,9 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\gama-monstro\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\gama-monstro" />
       <recent name="D:\wamp64\www\gama-monstro\img" />
@@ -234,12 +255,12 @@
       <workItem from="1507533422541" duration="53079000" />
       <workItem from="1507692089397" duration="15223000" />
       <workItem from="1507745800639" duration="2043000" />
-      <workItem from="1507782902497" duration="4114000" />
+      <workItem from="1507782902497" duration="5620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74459000" />
+    <option name="totallyTimeSpent" value="75965000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -263,7 +284,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34127843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31876332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27193934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24818276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13965885" sideWeight="0.50524735" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -532,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/step12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/step11.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="830">
@@ -658,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/gohorseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -666,7 +680,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -674,15 +688,23 @@
     <entry file="file://$PROJECT_DIR$/step1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
-          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/step4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        <state relative-caret-position="1428">
+          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
           <folding />
         </state>
       </provider>
