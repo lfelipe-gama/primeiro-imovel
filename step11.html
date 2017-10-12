@@ -50,95 +50,30 @@
             </div>
             <div class="container">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75"
-                         aria-valuemin="0"
-                         aria-valuemax="100" style="width: 75%;">
-                        75%
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="93" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 93%;">
+                        93%
                     </div>
                 </div>
 
-                <h4 style="font-size: 22px; margin-top: 60px; ">Selecione até 3 interesses:</h4>
+                <h4 style="font-size: 22px; margin-top: 60px; ">Quase lá!</h4>
                 <br class="clearfix">
-
-                <div class="form-box" style="margin-top: 10px;">
-
-                            <form action="gohorseController.php" method="post">
-                                <div class="row">
-                                <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                    <input type="checkbox" name="interesse[]" value="praia" id="check1"/>
-                                    <label class="label-checkbox" for="check1">Praia</label>
-
-                                </div>
-
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                        <input type="checkbox" name="interesse[]" value="gastronomia" id="check2"/>
-                                        <label class="label-checkbox" for="check2">Gastronomia e bebidas</label>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                        <input type="checkbox" name="interesse[]" value="fitness" id="check3"/>
-                                        <label class="label-checkbox" for="check3">Fitness</label>
-
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                        <input type="checkbox" name="interesse[]" value="arte e cultura" id="check4"/>
-                                        <label class="label-checkbox" for="check4">Arte e cultura</label>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                        <input type="checkbox" name="interesse[]" value="vida noturna" id="check5"/>
-                                        <label class="label-checkbox" for="check5">Vida nortuna</label>
-
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                        <input type="checkbox" name="interesse[]" value="tecnologia" id="check6"/>
-                                        <label class="label-checkbox" for="check6">Tecnologia</label>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-                                <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                    <input type="checkbox" name="interesse[]" value="negocios" id="check7"/>
-                                    <label class="label-checkbox" for="check7">Negócios</label>
-
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 text-left" style="margin-top: 20px;">
-
-                                    <input type="checkbox" name="interesse[]" value="outros" id="check8"/>
-                                    <label class="label-checkbox" for="check8">Outros</label>
-
-                                </div>
-
+                <div class="form-box">
+                    <form action="gohorseController.php" method="post">
+                      <div class="row" style="margin-top: 50px;">
+                        <div class="col-lg-12" >
+                            <div class="form-group">
+                                <label class="label-title pull-left" for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="digite seu melhor email" required>
                             </div>
+                            <br>
+                            <button style="margin-top: 80px;" type="submit" class="btn-lg btn-default btn-lead">Avançar
+                            </button>
+                        </div>
+                        </div>
 
-
-                                <button style="margin-top: 70px;" type="submit" class="btn-lg btn-default btn-xx">Avançar</button>
-
-
-
-
-                        </form>
-                    </div>
+                </div>
+                </form>
 
             </div>
         </div>
@@ -152,19 +87,19 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    var rangeSlider = function () {
+    var rangeSlider = function(){
         var slider = $('.range-slider'),
             range = $('.range-slider__range'),
             value = $('.range-slider__value');
 
-        slider.each(function () {
+        slider.each(function(){
 
-            value.each(function () {
+            value.each(function(){
                 var value = $(this).prev().attr('value');
                 $(this).html(value);
             });
 
-            range.on('input', function () {
+            range.on('input', function(){
                 $(this).next(value).html(this.value);
             });
         });
