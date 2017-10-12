@@ -49,7 +49,7 @@ body {
 h2 {
     color: #FFFFFF;
     font-size: 26px;
-    font-weight: bold;
+    font-weight: regular;
     line-height: 33px;
     text-align: center;
     padding: 15px;
@@ -301,22 +301,44 @@ label:hover:before {
 
 @media screen and (min-width:500px) {
 .head {
-    width: 45%;
+    width: 30%;
     padding-bottom: 0px;
 }
+
+.container-fluid {
+    max-width: 570px;
+}
+    .container {
+    max-width: 570px;
+}
+
+
+
 }
 
 
 @media screen and (min-width:994px) {
 .head {
-    width: 25%;
-        padding-bottom: 0px;
+    width: 30%;
+    padding-bottom: 0px;
 }
 }
 
+
+@media screen and (min-width:992px) {
+.container-fluid {
+    width: 570px;
+}
+    .container {
+    width: 570px;
+}
+}
+
+
+
 @media screen and (min-width:1200px) {
 .head {
-    width: 20%;
+    width: 30%;
     padding-bottom: 30px;
 }
 }
