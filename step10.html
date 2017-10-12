@@ -153,6 +153,18 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
+    $(document).ready(function () {
+        $("input[name='interesse[]']").change(function () {
+            var maxAllowed = 3;
+            var cnt = $("input[name='interesse[]']:checked").length;
+            if (cnt > maxAllowed) 
+            {
+                $(this).prop("checked", "");
+                alert('Somente ' + maxAllowed + ' opções são permitidas!');
+            }
+        });
+    });
+
     var rangeSlider = function () {
         var slider = $('.range-slider'),
             range = $('.range-slider__range'),
@@ -170,6 +182,8 @@
             });
         });
     };
+    //interesse
+
 
     rangeSlider();
 </script>
