@@ -56,39 +56,38 @@ if (isset($_POST)) {
         $mail->From = "marcus@primeiro-imovel.com"; // Seu e-mail
         $mail->FromName = "Marcus Lemos"; // Seu nome
 
-// Define o(s) destinatário(s)
         $mail->AddAddress($_SESSION['email'], $_SESSION['nome']);
 
-// BCC - Cópia oculta
+//Cópia oculta
         $mail->AddBCC('lipe.smo@gmail.com', 'Felipe');
 
-// Definir se o e-mail é em formato HTML ou texto plano
+// Define se o e-mail é em formato HTML ou texto plano
         $mail->IsHTML(true); // Formato HTML . Use "false" para enviar em formato texto simples.
 
         $mail->CharSet = 'UTF-8'; // Charset (opcional)
 
-// Assunto da mensagem
         $mail->Subject = "[Primeiro Imóvel] Seu primeiro imóvel, nosso primeiro passo!";
 
-// Corpo do email
-        $mail->Body = ' Olá, '.$_SESSION['nome'].'
-                        Estou entrando contato para dar continuidade a jornada de busca pelo seu imóvel dos sonhos!<br>
-                        Para te entregar o melhor resultado queria ver se você pode me ajudar respondendo duas perguntas:<br>
-                        Gostaria de entender a quanto tempo você está pesquisando por um imóvel?<br>
-                        E em quanto tempo você planeja realizar a comprar?<br><br>
-                        Fora isso, tem alguma coisa que você gostaria de perguntar ou que acha que deveriamos saber?<br>
-                        Queremos ser o mais assertivo possivel!<br><br>
-                        Abraços,<br>
+        $mail->Body = ' Olá, '. $_SESSION['nome'] .'!
+                        Estou entrando contato para dar continuidade à jornada de busca pelo seu imóvel dos sonhos!<br><br>
+                        
+                        Para lhe entregar o melhor resultado, queria ver se você pode me ajudar respondendo duas perguntas:<br><br>
+                        
+                        - Há quanto tempo você está pesquisando por um imóvel?<br>
+                        - Em quanto tempo você planeja realizar a comprar?<br><br>
+                        
+                        Fora isso, tem alguma coisa que você gostaria de perguntar ou que acha que deveríamos saber?<br>
+                        Queremos ser o mais certeiros possível!<br><br><br>
+                        
+                        Abraços,<br><br>
                         Marcus Lemos<br>
                         Primeiro Imóvel';
 
-// Envia o e-mail
         $enviado = $mail->Send();
 
-
         session_destroy();
-
         //var_dump($res);
+
         header('Location: obrigado.html');
 
         exit();
