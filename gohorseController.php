@@ -29,10 +29,6 @@ if (isset($_POST)) {
         $db->insert('leads',$_SESSION);
         $res = $db->getResult();
 
-        session_destroy();
-
-        //var_dump($res);
-
     include "PHPMailer-master/PHPMailerAutoload.php";
 
 
@@ -93,8 +89,11 @@ if (isset($_POST)) {
         exit();
     }
 
+        session_destroy();
 
+        //var_dump($res);
         //header('Location: obrigado.html');
+
         exit();
     }
 
