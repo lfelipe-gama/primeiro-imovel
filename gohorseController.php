@@ -68,7 +68,7 @@ if (isset($_POST)) {
 
         $mail->Subject = "[Primeiro Imóvel] Seu primeiro imóvel, nosso primeiro passo!";
 
-        $mail->Body = ' Olá, '. $_SESSION['nome'] .'!<br><br>
+        $mail->Body = ' Olá, '. $_SESSION['nome'] .'!<br>
                         Estou entrando contato para dar continuidade à jornada de busca pelo seu imóvel dos sonhos!<br><br>
                         
                         Para lhe entregar o melhor resultado, queria ver se você pode me ajudar respondendo duas perguntas:<br><br>
