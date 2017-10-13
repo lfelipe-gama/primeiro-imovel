@@ -58,7 +58,7 @@ if (isset($_POST)) {
     $mail->SMTPDebug = 2; // Você pode habilitar esta opção caso tenha problemas. Assim pode identificar mensagens de erro.
 
     $mail->From = "marcus@primeiro-imovel.com"; // Seu e-mail
-    $mail->FromName = "[Primeiro Imóvel] Seu primeiro imóvel, nosso primeiro passo!"; // Seu nome
+    $mail->FromName = "Marcus Lemos"; // Seu nome
 
 // Define o(s) destinatário(s)
     $mail->AddAddress( $_SESSION['email'], $_SESSION['nome']);
@@ -72,7 +72,7 @@ if (isset($_POST)) {
     $mail->CharSet = 'UTF-8'; // Charset (opcional)
 
 // Assunto da mensagem
-    $mail->Subject = "Orçamento Festa - ".$_POST['person'];
+    $mail->Subject = "[Primeiro Imóvel] Seu primeiro imóvel, nosso primeiro passo!";
 
 // Corpo do email
     $mail->Body = '<b>SOLICITAÇÃO DE ORÇAMENTO VIA SITE</b>
@@ -85,11 +85,11 @@ if (isset($_POST)) {
 // Exibe uma mensagem de resultado
     if ($enviado) {
         $retorno = array('codigo' => 1, 'mensagem' => '<br>Em breve entraremos em contato!');
-        echo json_encode($retorno);
+        echo $retorno;
         exit();
     } else {
         $retorno = array('codigo' => 0, 'mensagem' => $mail->ErrorInfo);
-        echo json_encode($retorno);
+        echo $retorno;
         exit();
     }
 
